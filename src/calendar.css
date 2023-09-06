@@ -1,0 +1,90 @@
+/* Estilo para el contenedor del calendario */
+.rbc-calendar {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilo para las celdas de los días */
+  .rbc-month-row + .rbc-month-row {
+    border-top: 1px solid #ccc;
+  }
+  
+  /* Estilo para los días de la semana en la parte superior */
+  .rbc-header {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+  }
+  
+  /* Estilo para los eventos en el calendario */
+  .rbc-event {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 2px;
+    margin: 1px;
+  }
+  
+  /* Estilo para eventos seleccionados */
+  .rbc-selected {
+    background-color: #f0ad4e;
+    border-color: #eea236;
+  }
+  
+  /* Estilo para la barra de navegación del mes */
+  .rbc-toolbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo para los botones de navegación del mes */
+  .rbc-btn-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Estilo para el botón de hoy en la barra de navegación */
+  .rbc-today {
+    background-color: #f0ad4e;
+    border-color: #eea236;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Estilo para el título del mes y año */
+  .rbc-toolbar-label {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  /* Estilo para los días de la semana en la vista de mes */
+  .rbc-month-view {
+    margin-top: 10px;
+  }
+  
+  /* Estilo para los números de día en la vista de mes */
+  .rbc-month-view .rbc-day-bg {
+    background-color: #f2f2f2;
+    width: 20px; /* Ancho de cada celda de día */
+    height: 20px; /* Altura de cada celda de día */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+  
+  /* Estilo para el nombre del mes en la vista de mes */
+  .rbc-month-row .rbc-month-cell {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Estilo para los números de día en la vista de mes */
+  .rbc-month-row .rbc-month-cell .rbc-day-bg + .rbc-day-bg {
+    border-left: 1px solid #ccc;
+  }
+  
